@@ -1,3 +1,16 @@
+body {background-image: linear-gradient(rgba(255,0,0,0), rgba(0, 255, 13, 0.507));}
+
+#movie {
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   {top: 0px; width: 100px;}
+  50%  {right: 200px; width: 500px;}
+  100% {left: 20px; width: 300px;}
+  
+}
+
 .tutorial {
     width: 600px;
     text-align: center;
@@ -28,7 +41,7 @@
   }
   
   .hero {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   
   .forms {
