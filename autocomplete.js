@@ -7,12 +7,11 @@ const createAutoComplete = ({    //reusable widget
     }) => {
     
     root.innerHTML = `                          
-    <label><b>Search for the movie</b></label> 
-    <input class="input"/> <br>
+    <label><b>Search for the movie</b></label>
+    <input class="input" placeholder="e.g. Titanic"/>
     <div class="dropdown">
         <div class="dropdown-menu">
-            <div class="dropdown-content results">
-            </div>
+            <div class="dropdown-content results"></div>
         </div>
     </div>
     `;  //element that the autocomplete should be render into 
